@@ -5,12 +5,12 @@ Strict Rule: Exactly 20 Unique Images, Used Exactly Once, >20KB Each, Zero Dupli
 
 | Asset Name | Subject Description | Location / Section Used | MD5 Hash | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| `pochettemagnet_asset_1.jpg` | Signature Obsidian Black Box Calfskin Magnetic Pochette on polished marble atelier pedestal | `index.html` | 458789fec4112487956017d0f05cef1f | Verified Unique Real Photo |
-| `pochettemagnet_asset_2.jpg` | Extreme macro photograph of full-grain Italian leather texture and champagne gold magnetic clasp | `index.html` | 7e5a9dfaf44d03749d263a37d8cdfd24 | Verified Unique Real Photo |
-| `pochettemagnet_asset_3.jpg` | Master leather artisan hand-stitching luxury bag gusset using traditional linen thread and awl | `index.html` | 071130c61fa3ded3c3489de5ba8e2286 | Verified Unique Real Photo |
-| `pochettemagnet_asset_4.jpg` | Burgundy wine structured leather envelope clutch purse flat lay on rustic workshop oak bench | `index.html` | 752af9a46e910560cf6919ec3aba9fa0 | Verified Unique Real Photo |
-| `pochettemagnet_asset_5.jpg` | Detailed close-up of precision magnetic lock closure mechanism and hand-creased leather borders | `index.html` | f9658b94dfc4168dc4678b5dd695bb54 | Verified Unique Real Photo |
-| `pochettemagnet_asset_6.jpg` | Leathercraft artisan tool flat lay featuring edge bevelers, French skiving knife, and bone folder | `index.html` | cf0034d6ed7c769198c7b85bab4d9601 | Verified Unique Real Photo |
+| `pochettemagnet_asset_1.jpg` | Signature Obsidian Black Box Calfskin Magnetic Pochette on polished marble atelier pedestal | `index.php` | 458789fec4112487956017d0f05cef1f | Verified Unique Real Photo |
+| `pochettemagnet_asset_2.jpg` | Extreme macro photograph of full-grain Italian leather texture and champagne gold magnetic clasp | `index.php` | 7e5a9dfaf44d03749d263a37d8cdfd24 | Verified Unique Real Photo |
+| `pochettemagnet_asset_3.jpg` | Master leather artisan hand-stitching luxury bag gusset using traditional linen thread and awl | `index.php` | 071130c61fa3ded3c3489de5ba8e2286 | Verified Unique Real Photo |
+| `pochettemagnet_asset_4.jpg` | Burgundy wine structured leather envelope clutch purse flat lay on rustic workshop oak bench | `index.php` | 752af9a46e910560cf6919ec3aba9fa0 | Verified Unique Real Photo |
+| `pochettemagnet_asset_5.jpg` | Detailed close-up of precision magnetic lock closure mechanism and hand-creased leather borders | `index.php` | f9658b94dfc4168dc4678b5dd695bb54 | Verified Unique Real Photo |
+| `pochettemagnet_asset_6.jpg` | Leathercraft artisan tool flat lay featuring edge bevelers, French skiving knife, and bone folder | `index.php` | cf0034d6ed7c769198c7b85bab4d9601 | Verified Unique Real Photo |
 | `pochettemagnet_asset_7.jpg` | Minimalist champagne metallic evening minaudière clutch with concealed magnetic closure | `about.html` | 002ad5ca888bd41c6fd8c207b2bccbf3 | Verified Unique Real Photo |
 | `pochettemagnet_asset_8.jpg` | Warm cognac tan calfskin envelope clutch with magnetic flap displayed on raw natural linen | `about.html` | 0043f47b76a0b2e00eda900b77b79735 | Verified Unique Real Photo |
 | `pochettemagnet_asset_9.jpg` | Artisan pattern drafting table with brass calipers, geometric leather templates, and cutting mat | `about.html` | a4b22ebb51434b05c16e1c3b5030818f | Verified Unique Real Photo |

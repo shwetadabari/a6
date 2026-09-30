@@ -9,7 +9,7 @@
     "email": "concierge@pochettemagnet.com"
   },
   "pages": [
-    "index.html",
+    "index.php",
     "about.html",
     "products.html",
     "contact.html",

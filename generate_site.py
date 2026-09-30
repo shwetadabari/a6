@@ -33,7 +33,7 @@ def get_header(active_page):
   <header class="site-header">
     <div class="pm-container">
       <div class="pm-nav-wrapper">
-        <a href="index.html" class="pm-brand">
+        <a href="index.php" class="pm-brand">
           <div class="pm-brand-emblem">⊛</div>
           <div class="pm-brand-title">
             Pochette Magnet
@@ -41,7 +41,7 @@ def get_header(active_page):
           </div>
         </a>
         <nav class="pm-nav-menu">
-          <a href="index.html" class="pm-nav-link {idx_cls}">Magnetic Vault</a>
+          <a href="index.php" class="pm-nav-link {idx_cls}">Magnetic Vault</a>
           <a href="about.html" class="pm-nav-link {abt_cls}">Leather Guild</a>
           <a href="products.html" class="pm-nav-link {prd_cls}">Creations Matrix</a>
           <a href="faq.html" class="pm-nav-link {faq_cls}">Atelier FAQ</a>
@@ -70,7 +70,7 @@ def get_header(active_page):
       <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close Drawer">&times;</button>
     </div>
     <div class="mobile-drawer-body">
-      <a href="index.html" class="mobile-nav-link">Magnetic Vault Flagship</a>
+      <a href="index.php" class="mobile-nav-link">Magnetic Vault Flagship</a>
       <a href="about.html" class="mobile-nav-link">Leather Guild &amp; Heritage</a>
       <a href="products.html" class="mobile-nav-link">Creations Matrix</a>
       <a href="faq.html" class="mobile-nav-link">Atelier FAQ &amp; Care</a>
@@ -106,7 +106,7 @@ def get_footer():
         <div class="pm-footer-col">
           <h4>Atelier Pochettes</h4>
           <ul class="pm-footer-links">
-            <li><a href="index.html">Flagship Vault</a></li>
+            <li><a href="index.php">Flagship Vault</a></li>
             <li><a href="about.html">Calfskin Heritage</a></li>
             <li><a href="products.html">Creations Matrix</a></li>
             <li><a href="faq.html">Magnetic Lock FAQ</a></li>
@@ -151,7 +151,7 @@ def get_footer():
   <script src="assets/js/main.js"></script>"""
 
 # ==========================================
-# 1. INDEX.HTML (Flagship Home - 12 Distinct Sections)
+# 1. index.php (Flagship Home - 12 Distinct Sections)
 # ==========================================
 def build_index():
     return f"""<!DOCTYPE html>
@@ -161,7 +161,7 @@ def build_index():
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pochette Magnet | Luxury Magnetic Leather Pochettes &amp; Clutches</title>
   <meta name="description" content="Discover Pochette Magnet Atelier in Dallas. Bespoke luxury leather pochettes, sculptural evening clutches, and concealed acoustic neodymium magnetic closures.">
-  <link rel="canonical" href="https://{DOMAIN}/index.html">
+  <link rel="canonical" href="https://{DOMAIN}/index.php">
   {GTAG}
   {FONTS}
   <link rel="stylesheet" href="assets/css/style.css">
@@ -1470,7 +1470,7 @@ def build_cookie():
 # ==========================================
 def build_sitemap():
     pages = [
-        "index.html",
+        "index.php",
         "about.html",
         "products.html",
         "contact.html",
@@ -1486,7 +1486,7 @@ def build_sitemap():
     <loc>https://{DOMAIN}/{p}</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>{'1.0' if p == 'index.html' else '0.8'}</priority>
+    <priority>{'1.0' if p == 'index.php' else '0.8'}</priority>
   </url>\n"""
     
     return f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -1509,9 +1509,9 @@ def build_image_registry(meta_list):
         h = it["hash"]
         desc = it["description"]
         # Determine location used
-        loc = "index.html"
+        loc = "index.php"
         if name in ["pochettemagnet_asset_1.jpg", "pochettemagnet_asset_2.jpg", "pochettemagnet_asset_3.jpg", "pochettemagnet_asset_4.jpg", "pochettemagnet_asset_5.jpg", "pochettemagnet_asset_6.jpg"]:
-            loc = "index.html"
+            loc = "index.php"
         elif name in ["pochettemagnet_asset_7.jpg", "pochettemagnet_asset_8.jpg", "pochettemagnet_asset_9.jpg", "pochettemagnet_asset_10.jpg", "pochettemagnet_asset_11.jpg", "pochettemagnet_asset_12.jpg"]:
             loc = "about.html"
         elif name in ["pochettemagnet_asset_13.jpg", "pochettemagnet_asset_14.jpg", "pochettemagnet_asset_15.jpg", "pochettemagnet_asset_16.jpg", "pochettemagnet_asset_17.jpg", "pochettemagnet_asset_18.jpg"]:
@@ -1587,7 +1587,7 @@ def build_manifest():
             "email": EMAIL
         },
         "pages": [
-            "index.html",
+            "index.php",
             "about.html",
             "products.html",
             "contact.html",
@@ -1610,7 +1610,7 @@ def generate_all():
         meta_list = json.load(f)
 
     files = {
-        "index.html": build_index(),
+        "index.php": build_index(),
         "about.html": build_about(),
         "products.html": build_products(),
         "contact.html": build_contact(),

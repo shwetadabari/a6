@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pochette Magnet | Luxury Magnetic Leather Pochettes &amp; Clutches</title>
   <meta name="description" content="Discover Pochette Magnet Atelier in Dallas. Bespoke luxury leather pochettes, sculptural evening clutches, and concealed acoustic neodymium magnetic closures.">
-  <link rel="canonical" href="https://pochettemagnet.com/index.html">
+  <link rel="canonical" href="https://pochettemagnet.com/index.php">
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
 <script>
@@ -43,7 +43,7 @@
   <header class="site-header">
     <div class="pm-container">
       <div class="pm-nav-wrapper">
-        <a href="index.html" class="pm-brand">
+        <a href="index.php" class="pm-brand">
           <div class="pm-brand-emblem">⊛</div>
           <div class="pm-brand-title">
             Pochette Magnet
@@ -51,7 +51,7 @@
           </div>
         </a>
         <nav class="pm-nav-menu">
-          <a href="index.html" class="pm-nav-link active">Magnetic Vault</a>
+          <a href="index.php" class="pm-nav-link active">Magnetic Vault</a>
           <a href="about.html" class="pm-nav-link ">Leather Guild</a>
           <a href="products.html" class="pm-nav-link ">Creations Matrix</a>
           <a href="faq.html" class="pm-nav-link ">Atelier FAQ</a>
@@ -80,7 +80,7 @@
       <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close Drawer">&times;</button>
     </div>
     <div class="mobile-drawer-body">
-      <a href="index.html" class="mobile-nav-link">Magnetic Vault Flagship</a>
+      <a href="index.php" class="mobile-nav-link">Magnetic Vault Flagship</a>
       <a href="about.html" class="mobile-nav-link">Leather Guild &amp; Heritage</a>
       <a href="products.html" class="mobile-nav-link">Creations Matrix</a>
       <a href="faq.html" class="mobile-nav-link">Atelier FAQ &amp; Care</a>
@@ -559,7 +559,7 @@
         <div class="pm-footer-col">
           <h4>Atelier Pochettes</h4>
           <ul class="pm-footer-links">
-            <li><a href="index.html">Flagship Vault</a></li>
+            <li><a href="index.php">Flagship Vault</a></li>
             <li><a href="about.html">Calfskin Heritage</a></li>
             <li><a href="products.html">Creations Matrix</a></li>
             <li><a href="faq.html">Magnetic Lock FAQ</a></li>
