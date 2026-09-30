@@ -1,0 +1,26 @@
+{
+  "domain": "pochettemagnet.com",
+  "brand": "Pochette Magnet Atelier & Guild",
+  "niche": "Luxury Bag",
+  "archetype": "Neo-Atelier Magnetic Monolith",
+  "institutional_contact": {
+    "address": "2001 Ross Avenue, Suite 3900, Dallas, TX 75201, United States",
+    "phone": "+1-877-509-3822",
+    "email": "concierge@pochettemagnet.com"
+  },
+  "pages": [
+    "index.html",
+    "about.html",
+    "products.html",
+    "contact.html",
+    "faq.html",
+    "privacy-policy.html",
+    "terms-and-conditions.html",
+    "disclaimer.html",
+    "cookie-policy.html"
+  ],
+  "assets_count": 20,
+  "php_files_count": 0,
+  "blog_pages_count": 0,
+  "google_analytics_tag": "G-0LY0HY7L01"
+}
